@@ -430,3 +430,60 @@ width:120px;
 }
 
 }
+/*=========================================
+FONDOS DOCUMENTALES
+=========================================*/
+
+.fondo-documental{
+
+background:rgba(255,255,255,.18);
+
+border-left:8px solid #7b6540;
+
+padding:25px;
+
+margin-top:35px;
+
+margin-bottom:40px;
+
+box-shadow:0 0 15px rgba(0,0,0,.25);
+
+}
+
+.fondo-documental h2{
+
+margin-top:0;
+
+margin-bottom:10px;
+
+font-size:30px;
+
+color:#5f4a2f;
+
+}
+
+.estadisticas{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:12px;
+
+margin-top:20px;
+
+margin-bottom:25px;
+
+font-size:17px;
+
+}
+
+.estadisticas div{
+
+background:rgba(255,255,255,.25);
+
+padding:12px;
+
+border-left:4px solid #7d6540;
+
+}
