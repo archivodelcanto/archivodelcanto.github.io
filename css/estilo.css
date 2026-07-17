@@ -570,3 +570,98 @@ color:#4b3c28;
 margin-bottom:4px;
 
 }
+/*=========================================
+FICHAS ARCHIVÍSTICAS
+=========================================*/
+
+.ficha-documento{
+
+background:#fffdf8;
+
+border:1px solid #c5b08a;
+
+border-left:8px solid #7a6240;
+
+padding:18px;
+
+margin:18px 0;
+
+box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.codigo{
+
+font-size:14px;
+
+font-weight:bold;
+
+letter-spacing:2px;
+
+color:#6d5739;
+
+text-transform:uppercase;
+
+}
+
+.titulo-documento{
+
+font-size:24px;
+
+margin:8px 0;
+
+color:#3f3121;
+
+}
+
+.meta{
+
+font-size:15px;
+
+color:#555;
+
+margin-bottom:10px;
+
+}
+
+.estado-documento{
+
+display:inline-block;
+
+padding:4px 10px;
+
+background:#e8e2d5;
+
+border:1px solid #bca57f;
+
+font-size:14px;
+
+font-weight:bold;
+
+margin-top:10px;
+
+}
+
+.boton-expediente{
+
+display:inline-block;
+
+margin-top:15px;
+
+padding:8px 14px;
+
+background:#6f5738;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:3px;
+
+}
+
+.boton-expediente:hover{
+
+background:#4f3e28;
+
+}
