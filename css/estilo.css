@@ -741,3 +741,124 @@ width:320px;
 margin:0 auto 25px auto;
 
 }
+/*=========================================
+INVENTARIO GENERAL DE FONDOS
+=========================================*/
+
+.resumen-inventario{
+display:grid;
+grid-template-columns:repeat(4,minmax(140px,1fr));
+gap:15px;
+margin:30px 0 45px 0;
+}
+
+.dato-inventario{
+background:rgba(255,255,255,.42);
+border:1px solid #b9a47c;
+border-top:5px solid #70583a;
+padding:18px;
+text-align:center;
+}
+
+.dato-inventario strong{
+display:block;
+font-size:30px;
+color:#493823;
+margin-bottom:5px;
+}
+
+.seccion-inventario{
+margin-top:55px;
+padding-top:20px;
+border-top:2px solid #766044;
+}
+
+.seccion-inventario h2{
+margin-bottom:5px;
+}
+
+.codigo-fondo{
+font-size:14px;
+letter-spacing:3px;
+font-weight:bold;
+color:#735b3b;
+}
+
+.tabla-inventario{
+width:100%;
+border-collapse:collapse;
+margin:25px 0 40px 0;
+background:rgba(255,255,255,.28);
+}
+
+.tabla-inventario th{
+background:#5f4b31;
+color:#fff;
+padding:13px;
+text-align:left;
+}
+
+.tabla-inventario td{
+padding:13px;
+border-bottom:1px solid #b7a37f;
+vertical-align:top;
+}
+
+.tabla-inventario tr:hover{
+background:rgba(255,255,255,.35);
+}
+
+.etiqueta{
+display:inline-block;
+padding:4px 9px;
+font-size:12px;
+font-weight:bold;
+letter-spacing:.5px;
+border:1px solid #9b8764;
+background:#ece4d4;
+color:#493a27;
+}
+
+.etiqueta-disponible{
+background:#dfe7d7;
+border-color:#87966f;
+}
+
+.etiqueta-pendiente{
+background:#eee5cf;
+border-color:#aa9362;
+}
+
+.etiqueta-restringido{
+background:#e5d7d4;
+border-color:#9b6c65;
+}
+
+.etiqueta-no-localizado{
+background:#d8d8d8;
+border-color:#777;
+}
+
+.descripcion-corta{
+font-size:14px;
+color:#5c5142;
+margin-top:5px;
+}
+
+.enlace-inventario{
+font-weight:bold;
+text-decoration:underline;
+}
+
+@media(max-width:800px){
+
+.resumen-inventario{
+grid-template-columns:repeat(2,1fr);
+}
+
+.tabla-inventario{
+display:block;
+overflow-x:auto;
+}
+
+}
