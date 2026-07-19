@@ -862,3 +862,79 @@ overflow-x:auto;
 }
 
 }
+/*=========================================
+PANEL DE INSTRUMENTOS ARCHIVÍSTICOS
+=========================================*/
+
+.panel-instrumentos{
+margin-top:60px;
+padding-top:30px;
+border-top:3px double #6c5639;
+border-bottom:1px solid #9e8968;
+padding-bottom:35px;
+}
+
+.panel-instrumentos > h2{
+margin-bottom:18px;
+letter-spacing:2px;
+}
+
+.panel-instrumentos .estadisticas{
+margin-top:25px;
+}
+
+.panel-instrumentos .estadistica{
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+justify-content:space-between;
+min-height:190px;
+}
+
+.panel-instrumentos .estadistica strong{
+display:block;
+font-size:24px;
+letter-spacing:3px;
+color:#594329;
+margin-bottom:8px;
+}
+
+.panel-instrumentos .estadistica p{
+font-size:14px;
+line-height:1.5;
+margin:8px 0 20px 0;
+}
+
+.panel-instrumentos .boton{
+margin-top:auto;
+}
+
+
+/* PIE INSTITUCIONAL */
+
+.footer{
+margin-top:60px;
+padding-top:25px;
+border-top:1px solid #8f7958;
+text-align:center;
+font-size:13px;
+line-height:1.7;
+letter-spacing:1px;
+color:#675843;
+}
+
+
+/* AJUSTES PARA TELÉFONOS */
+
+@media(max-width:800px){
+
+.panel-instrumentos{
+margin-top:40px;
+padding-top:25px;
+}
+
+.panel-instrumentos .estadistica{
+min-height:auto;
+}
+
+}
