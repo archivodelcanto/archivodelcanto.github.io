@@ -938,3 +938,91 @@ min-height:auto;
 }
 
 }
+/*=========================================
+NAVEGACIÓN INTERNA DEL ARCHIVO
+=========================================*/
+
+.navegacion-archivo{
+margin-bottom:40px;
+padding-bottom:20px;
+border-bottom:3px double #70583a;
+}
+
+.marca-navegacion{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:18px;
+}
+
+.logo-navegacion{
+width:65px;
+height:auto;
+}
+
+.nombre-navegacion{
+font-size:14px;
+font-weight:bold;
+letter-spacing:2px;
+line-height:1.4;
+color:#493823;
+}
+
+.menu-archivo{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+}
+
+.menu-archivo a{
+display:inline-block;
+padding:9px 12px;
+border:1px solid #9b8764;
+background:rgba(255,255,255,.28);
+color:#493823;
+font-size:12px;
+font-weight:bold;
+letter-spacing:.7px;
+text-decoration:none;
+transition:.2s;
+}
+
+.menu-archivo a:hover{
+background:#5f4b31;
+color:#ffffff;
+}
+
+.menu-archivo a.activo{
+background:#5f4b31;
+color:#ffffff;
+border-color:#5f4b31;
+cursor:default;
+}
+
+
+/* AJUSTES PARA TELÉFONOS */
+
+@media(max-width:700px){
+
+.marca-navegacion{
+align-items:flex-start;
+}
+
+.logo-navegacion{
+width:52px;
+}
+
+.nombre-navegacion{
+font-size:12px;
+}
+
+.menu-archivo{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+}
+
+.menu-archivo a{
+text-align:center;
+}
+
+}
