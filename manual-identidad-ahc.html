@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Manual de Identidad Institucional - Archivo Histórico del Canto</title>
+
+<style>
+
+:root {
+
+    --fondo-principal: #111111;
+    --fondo-secundario: #1b1b1b;
+    --fondo-terciario: #232323;
+
+    --texto-principal: #d8d1c5;
+    --texto-secundario: #99958c;
+
+    --dorado-principal: #b89b5e;
+    --dorado-claro: #c8b07a;
+
+    --linea: #444444;
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+
+    background-color: var(--fondo-principal);
+
+    color: var(--texto-principal);
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    line-height: 1.8;
+
+}
+
+.contenedor {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 40px 30px 80px 30px;
+
+}
+
+.cabecera-manual {
+
+    text-align: center;
+
+    border-bottom: 1px solid var(--linea);
+
+    padding-bottom: 35px;
+
+    margin-bottom: 45px;
+
+}
+
+.logo-ahc {
+
+    width: 120px;
+
+    max-width: 45%;
+
+    height: auto;
+
+    margin-bottom: 20px;
+
+}
+
+h1 {
+
+    margin: 0;
+
+    font-size: 44px;
+
+    letter-spacing: 2px;
+
+    line-height: 1.3;
+
+}
+
+.subtitulo-principal {
+
+    margin-top: 12px;
+
+    color: var(--dorado-principal);
+
+    font-size: 23px;
+
+    letter-spacing: 1px;
+
+}
+
+.version {
+
+    margin-top: 12px;
+
+    color: var(--texto-secundario);
+
+    font-size: 14px;
+
+}
+
+h2 {
+
+    color: var(--dorado-principal);
+
+    font-size: 30px;
+
+    border-bottom: 1px solid var(--linea);
+
+    padding-bottom: 10px;
+
+    margin-top: 65px;
+
+}
+
+h3 {
+
+    color: var(--dorado-claro);
+
+    font-size: 22px;
+
+    margin-top: 38px;
+
+}
+
+.bloque-destacado {
+
+    background-color: var(--fondo-secundario);
+
+    border-left: 5px solid var(--dorado-principal);
+
+    padding: 25px;
+
+    margin: 25px 0;
+
+}
+
+.bloque-secundario {
+
+    background-color: var(--fondo-terciario);
+
+    padding: 22px;
+
+    margin: 20px 0;
+
+}
+
+.nombre-oficial {
+
+    font-size: 25px;
+
+    letter-spacing: 2px;
+
+    text-align: center;
+
+    color: var(--dorado-claro);
+
+}
+
+.sigla {
+
+    font-family: "Courier New", monospace;
+
+    font-size: 30px;
+
+    letter-spacing: 4px;
+
+    text-align: center;
+
+    color: var(--dorado-claro);
+
+}
+
+.lema {
+
+    text-align: center;
+
+    font-size: 26px;
+
+    font-style: italic;
+
+    color: var(--dorado-claro);
+
+    padding: 30px;
+
+}
+
+.principio {
+
+    background-color: var(--fondo-secundario);
+
+    border-left: 4px solid var(--dorado-claro);
+
+    padding: 20px;
+
+    margin: 18px 0;
+
+}
+
+.principio strong {
+
+    color: var(--dorado-claro);
+
+}
+
+.lista-no-usar {
+
+    color: #c8a7a7;
+
+}
+
+.codigo {
+
+    font-family: "Courier New", monospace;
+
+    background-color: #090909;
+
+    border: 1px solid var(--linea);
+
+    padding: 4px 8px;
+
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 25px;
+
+    margin-bottom: 35px;
+
+}
+
+th,
+
+td {
+
+    border: 1px solid var(--linea);
+
+    padding: 15px;
+
+    text-align: left;
+
+    vertical-align: top;
+
+}
+
+th {
+
+    background-color: var(--fondo-terciario);
+
+    color: var(--dorado-claro);
+
+}
+
+.firma-institucional {
+
+    background-color: var(--fondo-secundario);
+
+    border: 1px solid var(--linea);
+
+    padding: 30px;
+
+    margin-top: 25px;
+
+    text-align: center;
+
+}
+
+.firma-institucional .nombre {
+
+    color: var(--dorado-claro);
+
+    font-size: 23px;
+
+    letter-spacing: 2px;
+
+}
+
+.nota-editorial {
+
+    margin-top: 40px;
+
+    padding: 20px;
+
+    border: 1px dashed var(--linea);
+
+    color: var(--texto-secundario);
+
+    font-style: italic;
+
+}
+
+.boton-volver {
+
+    display: inline-block;
+
+    margin-top: 50px;
+
+    padding: 12px 20px;
+
+    border: 1px solid var(--dorado-principal);
+
+    color: var(--texto-principal);
+
+    text-decoration: none;
+
+}
+
+.boton-volver:hover {
+
+    background-color: var(--dorado-principal);
+
+    color: #111111;
+
+}
+
+.footer {
+
+    margin-top: 70px;
+
+    border-top: 1px solid var(--linea);
+
+    padding-top: 30px;
+
+    text-align: center;
+
+    color: var(--texto-secundario);
+
+    font-size: 14px;
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .contenedor {
+
+        padding: 25px 18px 60px 18px;
+
+    }
+
+    h1 {
+
+        font-size: 31px;
+
+    }
+
+    h2 {
+
+        font-size: 25px;
+
+    }
+
+    .subtitulo-principal {
+
+        font-size: 19px;
+
+    }
+
+    table {
+
+        font-size: 14px;
+
+    }
+
+    th,
+
+    td {
+
+        padding: 10px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<header class="cabecera-manual">
+
+<img
+src="imagenes/logo-ahc.png"
+class="logo-ahc"
+alt="Logotipo del Archivo Histórico del Canto">
+
+<h1>ARCHIVO HISTÓRICO DEL CANTO</h1>
+
+<div class="subtitulo-principal">
+
+Manual de Identidad Institucional
+
+</div>
+
+<div class="version">
+
+Versión 1.0 · Capítulo 1 · Identidad Institucional
+
+</div>
+
+</header>
+
+<main>
+
+<section>
+
+<h2>CAPÍTULO 1 — IDENTIDAD INSTITUCIONAL</h2>
+
+<p>
+
+Este capítulo establece el nombre, la naturaleza, la historia institucional, los principios y la forma oficial de presentación del Archivo Histórico del Canto.
+
+</p>
+
+<p>
+
+Estas disposiciones deberán aplicarse de manera uniforme en los documentos, instrumentos archivísticos, expedientes digitalizados y páginas públicas del archivo.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>1.1 Nombre oficial</h3>
+
+<p>
+
+El nombre oficial de la institución es:
+
+</p>
+
+<div class="bloque-destacado nombre-oficial">
+
+ARCHIVO HISTÓRICO DEL CANTO
+
+</div>
+
+<p>
+
+El nombre completo deberá utilizarse en encabezados institucionales, páginas principales, documentos oficiales, instrumentos archivísticos y presentaciones públicas.
+
+</p>
+
+<p>
+
+No deberán utilizarse como denominación institucional las siguientes variantes:
+
+</p>
+
+<ul class="lista-no-usar">
+
+<li>Archivo del Canto</li>
+
+<li>Archivo Histórico</li>
+
+<li>Archivo Histórico de San Umbrío</li>
+
+<li>Archivo del Festival</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h3>1.2 Sigla oficial</h3>
+
+<p>
+
+La sigla oficial del Archivo Histórico del Canto es:
+
+</p>
+
+<div class="bloque-secundario sigla">
+
+AHC
+
+</div>
+
+<p>
+
+La sigla podrá utilizarse después de que el nombre completo de la institución haya sido mencionado previamente.
+
+</p>
+
+<p>
+
+Primera aparición recomendada:
+
+</p>
+
+<div class="bloque-secundario">
+
+Archivo Histórico del Canto (AHC)
+
+</div>
+
+<p>
+
+Después de esta primera aparición podrá utilizarse únicamente la sigla:
+
+</p>
+
+<div class="bloque-secundario">
+
+AHC
+
+</div>
+
+<p>
+
+La sigla también se utilizará como prefijo en los códigos archivísticos.
+
+</p>
+
+<p>
+
+Ejemplo:
+
+</p>
+
+<div class="bloque-secundario">
+
+<span class="codigo">AHC-FM-001</span>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>1.3 Naturaleza institucional</h3>
+
+<p>
+
+El Archivo Histórico del Canto se presenta oficialmente como:
+
+</p>
+
+<div class="bloque-destacado">
+
+Proyecto independiente de investigación, conservación, descripción y difusión documental.
+
+</div>
+
+<p>
+
+El AHC no se presenta como una dependencia gubernamental, ministerio, universidad, museo estatal ni archivo nacional.
+
+</p>
+
+<p>
+
+La institución conserva materiales producidos por autoridades, organizaciones y particulares de diferentes períodos, pero su incorporación al catálogo no convierte al AHC en autor de esos documentos.
+
+</p>
+
+<p>
+
+La expresión “República de Panamá” no deberá formar parte permanente del nombre, el logotipo, el encabezado o el pie de página del AHC.
+
+</p>
+
+<p>
+
+Dicha expresión solamente podrá aparecer cuando corresponda al contexto histórico o administrativo de un documento determinado.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>1.4 Fundación</h3>
+
+<p>
+
+El Archivo Histórico del Canto fue constituido en:
+
+</p>
+
+<div class="bloque-secundario sigla">
+
+1997
+
+</div>
+
+<p>
+
+Su primera publicación digital fue presentada en:
+
+</p>
+
+<div class="bloque-secundario sigla">
+
+1999
+
+</div>
+
+<p>
+
+Estas fechas corresponden al nacimiento institucional y digital del AHC. No deben confundirse con la fecha de creación de los documentos que conserva.
+
+</p>
+
+<p>
+
+El AHC puede custodiar documentos de los siglos XIX y XX, aunque la institución independiente haya sido constituida posteriormente.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>1.5 Misión</h3>
+
+<div class="bloque-destacado">
+
+Identificar, preservar, clasificar, describir y facilitar la consulta de documentos relacionados con la historia cultural, administrativa y territorial de San Umbrío, incluyendo materiales incompletos, dispersos, restringidos o de procedencia no verificada.
+
+</div>
+
+</section>
+
+<section>
+
+<h3>1.6 Visión</h3>
+
+<div class="bloque-destacado">
+
+Consolidar un fondo documental accesible que permita reconstruir críticamente la historia de San Umbrío sin ocultar, completar artificialmente ni eliminar las contradicciones presentes en los registros conservados.
+
+</div>
+
+</section>
+
+<section>
+
+<h3>1.7 Departamento responsable</h3>
+
+<p>
+
+La unidad responsable de la conservación, clasificación y descripción de los documentos será denominada:
+
+</p>
+
+<div class="bloque-secundario nombre-oficial">
+
+Departamento de Conservación y Descripción Documental
+
+</div>
+
+<p>
+
+Esta denominación deberá utilizarse en los instrumentos archivísticos, inventarios, catálogos, fichas técnicas y pies de página institucionales.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>1.8 Lema institucional</h3>
+
+<p>
+
+El lema oficial del Archivo Histórico del Canto es:
+
+</p>
+
+<div class="bloque-destacado lema">
+
+“Conservar no significa completar.”
+
+</div>
+
+<p>
+
+El lema expresa que el Archivo debe preservar las contradicciones, los vacíos y las ausencias documentales sin intentar sustituirlos mediante explicaciones no verificadas.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>1.9 Principios institucionales</h3>
+
+<div class="principio">
+
+<strong>Principio 1 — El Archivo conserva. No demuestra.</strong>
+
+<br><br>
+
+La función del AHC es preservar, describir y facilitar la consulta de documentos. La institución no presenta una interpretación como verdad definitiva.
+
+</div>
+
+<div class="principio">
+
+<strong>Principio 2 — Las contradicciones se registran. No se corrigen.</strong>
+
+<br><br>
+
+Las diferencias entre fechas, nombres, testimonios, inventarios o descripciones deberán consignarse como parte del expediente.
+
+</div>
+
+<div class="principio">
+
+<strong>Principio 3 — La ausencia documental también constituye información histórica.</strong>
+
+<br><br>
+
+Los documentos no localizados, los folios ausentes, las series incompletas y los expedientes restringidos deberán permanecer registrados en los instrumentos de consulta.
+
+</div>
+
+<div class="principio">
+
+<strong>Principio 4 — La incorporación al catálogo no certifica autenticidad absoluta.</strong>
+
+<br><br>
+
+El registro de un documento indica que existe una referencia, copia, expediente o pieza asociada, pero no garantiza que su procedencia haya sido completamente verificada.
+
+</div>
+
+<div class="principio">
+
+<strong>Principio 5 — Toda descripción debe identificar el tipo de material.</strong>
+
+<br><br>
+
+El AHC deberá diferenciar claramente entre documento original, copia, transcripción, reconstrucción, reproducción digital y referencia documental.
+
+</div>
+
+</section>
+
+<section>
+
+<h3>1.10 Cronología institucional</h3>
+
+<p>
+
+La siguiente cronología corresponde a la historia de las instituciones encargadas de custodiar o publicar los documentos. No representa la cronología general de San Umbrío.
+
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Año</th>
+
+<th>Acontecimiento institucional</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>1932</td>
+
+<td>
+
+Creación del Archivo Municipal de San Umbrío. Parte de los documentos anteriores fue incorporada posteriormente a sus inventarios.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>1986</td>
+
+<td>
+
+Interrupción y dispersión de distintas series documentales después de los acontecimientos conocidos como el Caso San Umbrío.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>1997</td>
+
+<td>
+
+Constitución del Archivo Histórico del Canto como proyecto independiente de investigación, conservación y descripción documental.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>1999</td>
+
+<td>
+
+Primera publicación digital del Archivo Histórico del Canto.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>2008</td>
+
+<td>
+
+Reorganización inicial del catálogo y revisión de las referencias documentales disponibles.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>2016</td>
+
+<td>
+
+Inicio de una nueva etapa de digitalización y clasificación de materiales recuperados.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>2025</td>
+
+<td>
+
+Revisión integral de la estructura del catálogo, los códigos archivísticos y el portal público.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<section>
+
+<h3>1.11 Firma institucional</h3>
+
+<p>
+
+Cuando se requiera una presentación institucional completa, se utilizará la siguiente estructura:
+
+</p>
+
+<div class="firma-institucional">
+
+<div class="nombre">
+
+ARCHIVO HISTÓRICO DEL CANTO
+
+</div>
+
+<br>
+
+<strong>AHC</strong>
+
+<br><br>
+
+Proyecto independiente de investigación,<br>
+
+conservación, descripción y difusión documental.
+
+<br><br>
+
+Fundado en 1997
+
+<br>
+
+Primera publicación digital en 1999
+
+</div>
+
+</section>
+
+<section>
+
+<h3>1.12 Aplicación obligatoria</h3>
+
+<p>
+
+Las reglas de este capítulo deberán aplicarse progresivamente en:
+
+</p>
+
+<ul>
+
+<li>la página principal del Archivo;</li>
+
+<li>el Catálogo General de Fondos Documentales;</li>
+
+<li>el Inventario General de Fondos;</li>
+
+<li>el Cuadro General de Clasificación Archivística;</li>
+
+<li>las fichas de documentos históricos;</li>
+
+<li>los expedientes digitalizados;</li>
+
+<li>los encabezados y pies de página;</li>
+
+<li>los futuros sellos institucionales.</li>
+
+</ul>
+
+<div class="nota-editorial">
+
+La existencia del Manual de Identidad Institucional no significa que todos los documentos históricos deban tener una apariencia idéntica. El manual regula la presentación del AHC, mientras que cada documento deberá conservar las características visuales correspondientes a su fecha, institución productora y estado de conservación.
+
+</div>
+
+</section>
+
+<a href="archivo.html" class="boton-volver">
+
+← Volver al Catálogo General
+
+</a>
+
+</main>
+
+<footer class="footer">
+
+Archivo Histórico del Canto · AHC
+
+<br>
+
+Proyecto independiente fundado en 1997
+
+<br>
+
+Primera publicación digital: 1999
+
+<br>
+
+Departamento de Conservación y Descripción Documental
+
+<br><br>
+
+Manual de Identidad Institucional · Versión 1.0
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
