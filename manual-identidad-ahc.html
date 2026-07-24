@@ -349,7 +349,267 @@ th {
     font-size: 14px;
 
 }
+/* ==================================================
+CAPÍTULO 2 — LOGOTIPO Y SISTEMA DE MARCA
+================================================== */
 
+.marca-principal {
+
+    background-color: var(--fondo-secundario);
+
+    border: 1px solid var(--linea);
+
+    padding: 35px;
+
+    margin: 25px 0;
+
+    text-align: center;
+
+}
+
+.marca-principal img {
+
+    width: 150px;
+
+    max-width: 60%;
+
+    height: auto;
+
+    margin-bottom: 20px;
+
+}
+
+.marca-principal .nombre-marca {
+
+    color: var(--dorado-claro);
+
+    font-size: 27px;
+
+    letter-spacing: 2px;
+
+}
+
+.marca-principal .sigla-marca {
+
+    margin-top: 10px;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 22px;
+
+    letter-spacing: 5px;
+
+    color: var(--texto-secundario);
+
+}
+
+.retícula-marca {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+
+    margin: 25px 0;
+
+}
+
+.tarjeta-marca {
+
+    background-color: var(--fondo-secundario);
+
+    border: 1px solid var(--linea);
+
+    padding: 22px;
+
+}
+
+.tarjeta-marca h4 {
+
+    margin-top: 0;
+
+    color: var(--dorado-claro);
+
+    font-size: 18px;
+
+}
+
+.ejemplo-horizontal {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background-color: #161616;
+
+    border: 1px solid var(--linea);
+
+    padding: 25px;
+
+    margin: 20px 0;
+
+}
+
+.ejemplo-horizontal img {
+
+    width: 90px;
+
+    height: auto;
+
+}
+
+.ejemplo-horizontal .texto-marca {
+
+    text-align: left;
+
+}
+
+.ejemplo-horizontal .texto-marca strong {
+
+    color: var(--dorado-claro);
+
+    letter-spacing: 1px;
+
+}
+
+.ejemplo-vertical {
+
+    text-align: center;
+
+    background-color: #161616;
+
+    border: 1px solid var(--linea);
+
+    padding: 30px;
+
+    margin: 20px 0;
+
+}
+
+.ejemplo-vertical img {
+
+    width: 120px;
+
+    height: auto;
+
+    margin-bottom: 15px;
+
+}
+
+.zona-proteccion {
+
+    display: inline-block;
+
+    border: 2px dashed var(--dorado-principal);
+
+    padding: 35px;
+
+    margin: 25px auto;
+
+    text-align: center;
+
+}
+
+.zona-proteccion img {
+
+    width: 120px;
+
+    height: auto;
+
+}
+
+.regla-correcta {
+
+    background-color: #182018;
+
+    border-left: 5px solid #617b61;
+
+    padding: 18px;
+
+    margin: 15px 0;
+
+}
+
+.regla-incorrecta {
+
+    background-color: #211717;
+
+    border-left: 5px solid #824d4d;
+
+    padding: 18px;
+
+    margin: 15px 0;
+
+}
+
+.muestra-fondo {
+
+    min-height: 190px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 25px;
+
+    border: 1px solid var(--linea);
+
+}
+
+.muestra-fondo img {
+
+    width: 110px;
+
+    height: auto;
+
+}
+
+.fondo-oscuro {
+
+    background-color: #111111;
+
+}
+
+.fondo-papel {
+
+    background-color: #d8d1c5;
+
+}
+
+.fondo-papel img {
+
+    filter: none;
+
+}
+
+.fondo-dorado {
+
+    background-color: #b89b5e;
+
+}
+
+.lista-reglas li {
+
+    margin-bottom: 12px;
+
+}
+
+.alerta-identidad {
+
+    border: 2px solid var(--dorado-principal);
+
+    background-color: #151515;
+
+    padding: 25px;
+
+    margin: 30px 0;
+
+}
 @media screen and (max-width: 700px) {
 
     .contenedor {
@@ -389,7 +649,25 @@ th {
         padding: 10px;
 
     }
+    .ejemplo-horizontal {
 
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .ejemplo-horizontal .texto-marca {
+
+        text-align: center;
+
+    }
+
+    .zona-proteccion {
+
+        padding: 22px;
+
+    }
 }
 
 </style>
@@ -417,7 +695,7 @@ Manual de Identidad Institucional
 
 <div class="version">
 
-Versión 1.0 · Capítulo 1 · Identidad Institucional
+Versión 1.1 · Capítulos 1 y 2 · Identidad institucional y sistema de marca
 
 </div>
 
@@ -956,7 +1234,723 @@ La existencia del Manual de Identidad Institucional no significa que todos los d
 </div>
 
 </section>
+<!-- ==================================================
+CAPÍTULO 2 — LOGOTIPO Y SISTEMA DE MARCA
+================================================== -->
 
+<section>
+
+<h2>CAPÍTULO 2 — LOGOTIPO Y SISTEMA DE MARCA</h2>
+
+<p>
+
+Este capítulo establece la composición, las versiones, las proporciones y las reglas de uso del logotipo del Archivo Histórico del Canto.
+
+</p>
+
+<p>
+
+El sistema de marca debe identificar al AHC como una institución documental sobria y creíble. Su apariencia no deberá parecer promocional, cinematográfica ni deliberadamente relacionada con el género de terror.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.1 Marca institucional principal</h3>
+
+<p>
+
+La marca principal está formada por tres elementos:
+
+</p>
+
+<ol>
+
+<li>el símbolo gráfico institucional;</li>
+
+<li>el nombre completo Archivo Histórico del Canto;</li>
+
+<li>la sigla AHC como elemento secundario.</li>
+
+</ol>
+
+<div class="marca-principal">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Logotipo oficial del Archivo Histórico del Canto">
+
+<div class="nombre-marca">
+
+ARCHIVO HISTÓRICO DEL CANTO
+
+</div>
+
+<div class="sigla-marca">
+
+AHC
+
+</div>
+
+</div>
+
+<p>
+
+Esta será la presentación institucional preferida para portadas, instrumentos archivísticos, manuales, catálogos y páginas principales.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.2 Función del logotipo</h3>
+
+<p>
+
+El logotipo identifica al Archivo Histórico del Canto como institución responsable de organizar, describir y publicar los materiales conservados.
+
+</p>
+
+<div class="alerta-identidad">
+
+<strong>El logotipo del AHC no representa al pueblo de San Umbrío.</strong>
+
+<br><br>
+
+Tampoco representa al antiguo Archivo Municipal, a la parroquia, a la alcaldía ni a ninguna institución histórica productora de documentos.
+
+</div>
+
+<p>
+
+Por esta razón, el logotipo moderno no deberá incorporarse dentro de un facsímil como si hubiera formado parte del documento original.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.3 Archivo oficial del logotipo</h3>
+
+<p>
+
+Durante la versión 1.0 de este manual, el archivo oficial de la marca será:
+
+</p>
+
+<div class="bloque-secundario">
+
+<span class="codigo">imagenes/logo-ahc.png</span>
+
+</div>
+
+<p>
+
+Este archivo deberá utilizarse sin cambiar su proporción, recortar sus bordes o aplicar efectos gráficos adicionales.
+
+</p>
+
+<p>
+
+Si en el futuro se aprueba una nueva versión del logotipo, deberá conservarse el archivo anterior y registrarse el cambio en el control de versiones del manual.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.4 Versiones autorizadas</h3>
+
+<div class="retícula-marca">
+
+<div class="tarjeta-marca">
+
+<h4>Versión completa</h4>
+
+<p>
+
+Símbolo, nombre completo y sigla.
+
+</p>
+
+<p>
+
+Uso recomendado en portadas, manuales, catálogos e instrumentos archivísticos.
+
+</p>
+
+</div>
+
+<div class="tarjeta-marca">
+
+<h4>Versión horizontal</h4>
+
+<p>
+
+Símbolo ubicado a la izquierda y nombre institucional a la derecha.
+
+</p>
+
+<p>
+
+Uso recomendado en encabezados amplios y páginas interiores.
+
+</p>
+
+</div>
+
+<div class="tarjeta-marca">
+
+<h4>Versión vertical</h4>
+
+<p>
+
+Símbolo situado sobre el nombre institucional.
+
+</p>
+
+<p>
+
+Uso recomendado en portadas, fichas y documentos estrechos.
+
+</p>
+
+</div>
+
+<div class="tarjeta-marca">
+
+<h4>Versión reducida</h4>
+
+<p>
+
+Símbolo acompañado únicamente por la sigla AHC.
+
+</p>
+
+<p>
+
+Uso permitido solamente cuando el nombre completo ya aparece en la misma página.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>2.5 Versión horizontal</h3>
+
+<p>
+
+La versión horizontal podrá utilizarse cuando el espacio disponible sea más ancho que alto.
+
+</p>
+
+<div class="ejemplo-horizontal">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Versión horizontal del logotipo">
+
+<div class="texto-marca">
+
+<strong>ARCHIVO HISTÓRICO DEL CANTO</strong>
+
+<br>
+
+AHC · Departamento de Conservación y Descripción Documental
+
+</div>
+
+</div>
+
+<p>
+
+El símbolo no deberá superar visualmente la altura total del bloque de texto.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.6 Versión vertical</h3>
+
+<p>
+
+La versión vertical será la forma recomendada para portadas institucionales y páginas de presentación.
+
+</p>
+
+<div class="ejemplo-vertical">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Versión vertical del logotipo">
+
+<br>
+
+<strong>ARCHIVO HISTÓRICO DEL CANTO</strong>
+
+<br>
+
+AHC
+
+</div>
+
+</section>
+
+<section>
+
+<h3>2.7 Uso de la sigla AHC</h3>
+
+<p>
+
+La sigla AHC es un elemento secundario de la marca.
+
+</p>
+
+<p>
+
+No deberá sustituir al nombre completo en la primera aparición institucional de una página o documento.
+
+</p>
+
+<div class="regla-correcta">
+
+<strong>Uso correcto:</strong>
+
+<br><br>
+
+Archivo Histórico del Canto (AHC)
+
+</div>
+
+<div class="regla-correcta">
+
+<strong>Uso correcto después de la primera aparición:</strong>
+
+<br><br>
+
+AHC-FM-001
+
+</div>
+
+<div class="regla-incorrecta">
+
+<strong>Uso incorrecto:</strong>
+
+<br><br>
+
+Presentar únicamente “AHC” sin explicar previamente su significado.
+
+</div>
+
+</section>
+
+<section>
+
+<h3>2.8 Zona de protección</h3>
+
+<p>
+
+El logotipo deberá conservar un espacio libre alrededor para evitar que otros textos, imágenes, bordes o sellos interfieran con su lectura.
+
+</p>
+
+<div style="text-align:center;">
+
+<div class="zona-proteccion">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Zona de protección del logotipo">
+
+</div>
+
+</div>
+
+<p>
+
+El espacio mínimo recomendado alrededor del símbolo será equivalente a la mitad de su propia altura.
+
+</p>
+
+<p>
+
+Ningún texto, línea, imagen, sello o botón deberá colocarse dentro de esa zona.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.9 Tamaño mínimo</h3>
+
+<p>
+
+El logotipo debe conservar suficiente tamaño para que sus formas permanezcan reconocibles.
+
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Aplicación</th>
+
+<th>Tamaño mínimo recomendado</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Página web en computadora</td>
+
+<td>90 píxeles de ancho</td>
+
+</tr>
+
+<tr>
+
+<td>Página web en teléfono</td>
+
+<td>70 píxeles de ancho</td>
+
+</tr>
+
+<tr>
+
+<td>Documento impreso</td>
+
+<td>25 milímetros de ancho</td>
+
+</tr>
+
+<tr>
+
+<td>Uso junto al nombre completo</td>
+
+<td>El símbolo debe conservar proporción visual con el texto</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p>
+
+Si el símbolo pierde legibilidad al reducirse, deberá utilizarse el nombre completo de la institución sin el símbolo.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>2.10 Fondos permitidos</h3>
+
+<p>
+
+El logotipo podrá utilizarse principalmente sobre fondos oscuros, neutros o con apariencia documental.
+
+</p>
+
+<div class="retícula-marca">
+
+<div class="tarjeta-marca">
+
+<h4>Fondo oscuro</h4>
+
+<div class="muestra-fondo fondo-oscuro">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Logotipo sobre fondo oscuro">
+
+</div>
+
+<p>
+
+Uso preferente para la plataforma digital del AHC.
+
+</p>
+
+</div>
+
+<div class="tarjeta-marca">
+
+<h4>Fondo papel</h4>
+
+<div class="muestra-fondo fondo-papel">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Logotipo sobre fondo papel">
+
+</div>
+
+<p>
+
+Permitido en reproducciones, portadas o fichas con textura documental.
+
+</p>
+
+</div>
+
+<div class="tarjeta-marca">
+
+<h4>Fondo dorado</h4>
+
+<div class="muestra-fondo fondo-dorado">
+
+<img
+src="imagenes/logo-ahc.png"
+alt="Logotipo sobre fondo dorado">
+
+</div>
+
+<p>
+
+Uso limitado. Solo se permitirá cuando exista contraste suficiente.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>2.11 Usos correctos</h3>
+
+<div class="regla-correcta">
+
+Mantener siempre la proporción original del logotipo.
+
+</div>
+
+<div class="regla-correcta">
+
+Utilizar el archivo oficial ubicado en la carpeta de imágenes.
+
+</div>
+
+<div class="regla-correcta">
+
+Mantener una zona libre alrededor del símbolo.
+
+</div>
+
+<div class="regla-correcta">
+
+Usar el nombre completo en la primera aparición institucional.
+
+</div>
+
+<div class="regla-correcta">
+
+Colocar la marca moderna en la página o ficha digital, no dentro del documento histórico original.
+
+</div>
+
+</section>
+
+<section>
+
+<h3>2.12 Usos prohibidos</h3>
+
+<div class="regla-incorrecta">
+
+No estirar ni comprimir el logotipo.
+
+</div>
+
+<div class="regla-incorrecta">
+
+No rotar o inclinar el logotipo.
+
+</div>
+
+<div class="regla-incorrecta">
+
+No cambiar sus colores arbitrariamente.
+
+</div>
+
+<div class="regla-incorrecta">
+
+No añadir sombras, brillos, relieves o efectos tridimensionales.
+
+</div>
+
+<div class="regla-incorrecta">
+
+No colocar el logotipo sobre fotografías donde pierda legibilidad.
+
+</div>
+
+<div class="regla-incorrecta">
+
+No añadir las expresiones “República de Panamá”, “Gobierno Nacional” o “Archivo Nacional” como parte de la marca.
+
+</div>
+
+<div class="regla-incorrecta">
+
+No emplear el logotipo del AHC como sello histórico de documentos anteriores a 1997.
+
+</div>
+
+</section>
+
+<section>
+
+<h3>2.13 Diferencia entre logotipo y sello</h3>
+
+<p>
+
+El logotipo y los sellos cumplen funciones distintas.
+
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Elemento</th>
+
+<th>Función</th>
+
+<th>Ubicación</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Logotipo del AHC</td>
+
+<td>Identificar a la institución responsable de la página, catálogo o ficha digital.</td>
+
+<td>Encabezado, portada, navegación o pie de página.</td>
+
+</tr>
+
+<tr>
+
+<td>Sello histórico</td>
+
+<td>Representar una institución o intervención administrativa correspondiente a una época determinada.</td>
+
+<td>Documento histórico, facsímil o reproducción contextualizada.</td>
+
+</tr>
+
+<tr>
+
+<td>Sello moderno del AHC</td>
+
+<td>Indicar procesos como digitalización, catalogación, restricción o procedencia no verificada.</td>
+
+<td>Ficha técnica o capa moderna de consulta.</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<section>
+
+<h3>2.14 Regla para documentos históricos</h3>
+
+<div class="alerta-identidad">
+
+El logotipo moderno del Archivo Histórico del Canto nunca deberá presentarse como si hubiera sido estampado originalmente en un documento de 1887, 1904, 1926, 1932 o cualquier fecha anterior a 1997.
+
+</div>
+
+<p>
+
+Cuando un documento histórico sea publicado por el AHC, deberán distinguirse visualmente dos capas:
+
+</p>
+
+<ul class="lista-reglas">
+
+<li><strong>Capa histórica:</strong> documento, sello original, firma, anotaciones y marcas propias de su época.</li>
+
+<li><strong>Capa moderna:</strong> código AHC, ficha técnica, estado de acceso y sello de digitalización.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h3>2.15 Aplicaciones prioritarias</h3>
+
+<p>
+
+El sistema de marca deberá aplicarse progresivamente en:
+
+</p>
+
+<ul class="lista-reglas">
+
+<li>la portada principal del sitio;</li>
+
+<li>el Catálogo General de Fondos Documentales;</li>
+
+<li>el Inventario General de Fondos;</li>
+
+<li>el Manual de Identidad Institucional;</li>
+
+<li>el Cuadro General de Clasificación Archivística;</li>
+
+<li>los encabezados de fichas documentales;</li>
+
+<li>los pies de página institucionales;</li>
+
+<li>las futuras copias de consulta.</li>
+
+</ul>
+
+<div class="nota-editorial">
+
+La aprobación de este capítulo no obliga a rediseñar inmediatamente todas las páginas. Los cambios se aplicarán de manera progresiva, comenzando por los instrumentos archivísticos principales.
+
+</div>
+
+</section>
+
+<!-- FIN DEL CAPÍTULO 2 -->
 <a href="archivo.html" class="boton-volver">
 
 ← Volver al Catálogo General
@@ -983,7 +1977,7 @@ Departamento de Conservación y Descripción Documental
 
 <br><br>
 
-Manual de Identidad Institucional · Versión 1.0
+Manual de Identidad Institucional · Versión 1.1
 
 </footer>
 
